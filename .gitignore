@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Environments
+*.bak
+*.env
+.venv
+
+.vscode
+
+# Notebooks containing credentials
+dotenv.py
