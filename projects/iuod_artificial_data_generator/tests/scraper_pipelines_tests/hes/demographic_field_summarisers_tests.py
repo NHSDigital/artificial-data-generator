@@ -92,7 +92,7 @@ def long_format_df_fixture():
       *[["table1", "field4", f"patient{k}", "DEMOGRAPHIC_DATE", None, datetime(2022, 1, 1) + timedelta(days=random.randint(1, 100))] for k in range(21, 24) for _ in range(50)],
     ],
   ]
-  schema = f"TABLE_NAME: string, FIELD_NAME: string, {HES_PATIENT_KEY}: string, VALUE_TYPE: string, VALUE_DATE: date"
+  schema = f"TABLE_NAME: string, FIELD_NAME: string, {HES_PATIENT_KEY}: string, VALUE_TYPE: string, VALUE_STRING: string, VALUE_DATE: date"
   frequency_long_df = spark.createDataFrame(frequency_field_data, schema)
 
   # Format dates as strings
