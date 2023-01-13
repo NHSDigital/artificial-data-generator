@@ -2,11 +2,11 @@
 
 Pipelines and reusable code for generating anonymous artificial versions of NHS Digital assets in Databricks.
 
-> **This material is maintained by the [NHS Digital Data Science team](mailto:nhsdigital.artificialdata@nhs.net)**.
+> **This material is maintained by the [NHS Digital Data Science team](mailto:datascience@nhs.net)**.
 >
 > See our other work here: [NHS Digital Analytical Services](https://github.com/NHSDigital/data-analytics-services).
 
-To contact us raise an issue on Github or via [email](mailto:nhsdigital.artificialdata@nhs.net) and we will respond promptly.
+To contact us raise an issue on Github or via [email](mailto:datascience@nhs.net) and we will respond promptly.
 
 ## Overview
 
@@ -52,7 +52,7 @@ We have packaged up the dependencies with the code, so the code should run on Da
 >
 > We have plans to pull out the core logic into a Python package to make it reusable by others (outside of Databricks), but we're not there yet!
 >
-> Look out for future updates, or feel free to reach out to us via [email](mailto:nhsdigital.artificialdata@nhs.net) and we'd be happy to talk.
+> Look out for future updates, or feel free to reach out to us via [email](mailto:datascience@nhs.net) and we'd be happy to talk.
 
 ## Repo structure
 ### Top-level structure
