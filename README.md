@@ -1,6 +1,6 @@
 # Artificial Data Generator
 
-Pipelines and reusable code for generating anonymous artificial versions of NHS Digital assets in Databricks.
+Pipelines for generating large volumes of anonymous artificial data that share some of the characteristics of real NHS data.
 
 > **This material is maintained by the [NHS Digital Data Science team](mailto:datascience@nhs.net)**.
 >
